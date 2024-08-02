@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammed Sevim - My CV</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <span></span>
+            <h1>Muhammed Sevim</h1>
+            <p>
+            <h4>Data Scientist & Data Analyst</h4>
+            </p>
+        </div>
+        <div class="menu">
+            <a href="index.html" title="Ana sayfayı aç">Home</a> |
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Projects</h2>
+
+        <!-- Projects -->
+
+        <div class="section">
+            <div class="card">
+                <div class="left">
+                    <h4>Computer Vision with Ronaldo and Messi</h4>
+                    <a class="link" href="https://www.linkedin.com/feed/update/urn:li:activity:7005920354858598400/"
+                        target="_blank">(LinkedIn)</a>
+                    <div class="video-container">
+                        <video controls>
+                            <source src="m-r.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>During the World Cup 2022, I practiced YOLOv5 to recognize Cristiano Ronaldo and Lionel
+                                Messi.</p>
+                        </li>
+                        <li>
+                            <p>First, I labeled a total of 100 images of Ronaldo and Messi in Makesense.ai, an
+                                open-source annotation tool. Afterward, I separated these images into train and
+                                validation data sets. Finally, I trained the data through YOLOv5 and implemented it in a
+                                YouTube video to recognize Messi and Ronaldo.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h4>Sentiment Analysis using GRU and BERT</h4>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>Applied NLP for sentiment analysis on <a class="link" href="https://www.hepsiburada.com/"
+                                    target="_blank">"hespiburada.com"</a>, which is one of the most
+                                popular e-commerce companies in Turkey.
+                            </p>
+                        </li>
+                        <li>
+                            <p>I used first Gated Recurrent Unit (GRU), then the Bert model to predict negative (class
+                                1) and positive (class 0) customer reviews. In both models, recall test scores for class
+                                1 varied between 77% and 92%. The average precision score was 73% and 89% in GRU and
+                                Bert models respectively.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h4>Forecasting of Amazon Stock Market Prices with Long Short-Term Memory (LSTM)</h4>
+                    <a class="link"
+                        href="https://github.com/msevim24/MachineLearning_DeepLearning_Projects/blob/master/TimeSeriesAnalysis_with_LSTM_%20AmazonStockPrices.ipynb"
+                        target="_blank">(GitHub)</a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>Time Series Analysis was applied using the LSTM model to forecast the Amazon Stock Market
+                                Opening Prices for the next two months (February and March 2023).
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h4>Prediction of Car Prices using Decision Trees, Random Forest and Boosting Models (AdaBoost,
+                        GradientBoost,
+                        XGBoost)</h4>
+                    <p><a class="link"
+                            href="https://github.com/msevim24/MachineLearning_DeepLearning_Projects/blob/master/Decision%20Trees%20and%20Random%20Forest_Regression_Car%20Price%20Prediction.ipynb"
+                            target="_blank">GitHub: Decision Trees vs Random Forest</a></p>
+                    </p><a class="link"
+                        href="https://github.com/msevim24/MachineLearning_DeepLearning_Projects/blob/master/XGBoosting%2C%20GradientBoosting%2C%20AdaBoosting%20%20Regressor_Car%20Price%20Prediction.ipynb"
+                        target="_blank">GitHub: Comparison of the Boosting Models</a></p>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>I worked on the Car dataset consisting of 301 observations and 8 features. For this
+                                regression
+                                problem,
+                                first I used Decision Trees with the best hyperparameters and obtained over 0.93 R2 and
+                                1.37 the Root
+                                Mean Square Error (RMSE) scores. Then, I applied Random Forest and got 0.973 R2 and
+                                0.851 error scores.
+                            </p>
+                        </li>
+                        <li>
+                            <p>Afterward, I implemented popular Boosting Models such as AdaBoost, GradientBoost and
+                                XGBoost.
+                                AdaBoost model provided 0.94 R2 and 1.27 RMSE scores.
+                                I could improve the R2 score (0.95) and reduce the error (1.1) with GradientBoosting.
+                                Finally, I tried the XGBoost model and received the highest R2 (0.973) and the lowest
+                                error (0.847)
+                                scores.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h4>Cancer Prediction using the K-Nearest Neighbors Algorithm (KNN)</h4>
+                    <a class="link"
+                        href="https://github.com/msevim24/MachineLearning_DeepLearning_Projects/blob/master/K-Nearest%20Neighbors%20(KNN)%20and%20Pipeline%20with%20Gene%20Expression.ipynb"
+                        target="_blank">(GitHub)</a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>Based on observations in two different genes, I predicted the presence of cancer through
+                                the KNN
+                                algorithm. I split the data as 70% train and 30% test size and tried different K values
+                                to receive
+                                better scores. After using Pipeline and GridSearchCV, KNN provided a 93% accuracy score.
+                                Also, I got 93% and 92% F1-test scores for class 0 and class 1 respectively in this
+                                dataset.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h4>Prediction of House Prices using Linear Regression (Ridge, Lasso, Elastic Net)</h4>
+                    <a class="link"
+                        href="https://github.com/msevim24/MachineLearning_DeepLearning_Projects/blob/master/Linear_Regression.ipynb"
+                        target="_blank">(GitHub)</a>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>Worked on the Ames Housing dataset and predicted the sale price of the properties in the
+                                given real
+                                estate industry. For this purpose, I used Linear Regression together with Ridge, Lasso
+                                and Elastic
+                                Net.
+                                I received the highest R2 scores (about 0.83) in Ridge and Elastic Net with
+                                GridSearchCV.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h4>Data Visualization with Tableau</h4>
+                    <a class="link" href="https://public.tableau.com/app/profile/muhammed.sevim"
+                        target="_blank">(Tableau
+                        Public)</a>
+                    <div class="tableau">
+                        <img src="img/sales-profit.png" alt="Tableau">
+                    </div>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <p>UK Bank Customers</p>
+                        </li>
+                        <li>
+                            <p>Target, Sales, Profit of a Retail Company</p>
+                        </li>
+                        <li>
+                            <p>Sales and Profit by Regions</p>
+                        </li>
+                        <li>
+                            <p>Dognition Test, Coursera</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <h3>Phone</h3>
+            <p>+41 78 641 8584</a></p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p><a href="mailto:msevim24@gmail.com">msevim24@gmail.com</a></p>
+        </div>
+        <div>
+            <h3>Follow Me</h3>
+            <p>
+                <a href="https://linkedin.com/in/muhammed-sevim" target="_blank">Linkedin</a> |
+                <a href="https://github.com/msevim24" target="_blank">GitHub</a>
+            </p>
+        </div>
+        <div>
+            <h3>Copyright</h3>
+            <p> &copy; 2024 - Muhammed Sevim</p>
+        </div>
+    </div>
+</body>
+
+</html>

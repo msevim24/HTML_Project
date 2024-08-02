@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Garamond', 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 16px;
+    background-color: rgb(136, 189, 188);
+    padding: 30px 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.header .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(91, 89, 90);
+}
+
+.menu a {
+    font-weight: 700;
+    color: rgb(123, 73, 73);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(37, 78, 88);
+    padding: 30px;
+    border-radius: 40px;
+    color: rgb(228, 217, 224);
+}
+
+.photo-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 0px 60px;
+
+}
+
+.photo-info img {
+    width: 335px;
+    height: 335px;
+    border-radius: 60px;
+    border: 2px solid rgb(126, 126, 126);
+}
+
+.resume .info a {
+    color: rgb(221, 128, 150);
+    font-size: 17px;
+}
+
+.info p {
+    font-size: 17px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 60px;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    width: 80%;
+}
+
+.section h2 {
+    color: rgb(67, 73, 95);
+}
+
+.link {
+    color: rgb(221, 128, 150);
+}
+
+.section .card {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px 50px;
+    margin-bottom: 15px;
+    gap: 15px;
+    background-color: rgb(37, 78, 88);
+}
+
+.section .card h4 {
+    color: rgb(230, 233, 237);
+}
+
+.section .card .left p {
+    color: rgb(230, 235, 239);
+
+}
+
+.section .card .left,
+.right {
+    flex: 5;
+    padding: 20px;
+}
+
+.section .card .right li {
+    color: rgb(228, 217, 224);
+}
+
+.section .card .right p {
+    text-align: justify;
+    color: rgb(228, 217, 224);
+}
+
+.section .form-row {
+    margin-bottom: 20px;
+}
+
+.video-container {
+    max-width: 600px;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    background-color: #ebe4e4;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.tableau img {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin: 10px 5px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 500px;
+}
+
+
+.footer h3 {
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 767px) {
+    /* Adjust styles for small screens */
+
+    body {
+        font-size: 14px;
+    }
+
+    header,
+    footer {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Adjust styles for medium screens */
+
+    body {
+        font-size: 18px;
+    }
+
+    header,
+    footer {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Adjust styles for large screens */
+
+    body {
+        font-size: 20px;
+    }
+
+    header,
+    footer {
+        padding: 40px;
+    }
+}
